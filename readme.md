@@ -1,6 +1,7 @@
 # BUMP
 
 [![GoDoc](https://godoc.org/github.com/olivoil/bump?status.svg)](https://godoc.org/github.com/olivoil/bump)
+[![Build Status](https://travis-ci.org/olivoil/bump.svg)](https://travis-ci.org/olivoil/bump)
 
 A utility tool written in Go. Use it in your existing Golang code or run commands via the CLI.
 
