@@ -31,9 +31,10 @@ var VersionPatch = gofer.Register(gofer.Task{
 	Namespace:   "version",
 	Label:       "patch",
 	Description: "Increment version's patch number",
-	Action: func(command, fileName string) error {
+	Action: func() error {
 
-    return bump.File(command, fileName)
+    fileName := "/path/to/file/containing/version/number"
+    return bump.File("patch", fileName)
 
 	},
 })
