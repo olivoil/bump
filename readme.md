@@ -1,5 +1,7 @@
 # BUMP
 
+[![GoDoc](https://godoc.org/github.com/olivoil/bump?status.svg)](https://godoc.org/github.com/olivoil/bump)
+
 A utility tool written in Go. Use it in your existing Golang code or run commands via the CLI.
 
 ```
@@ -15,6 +17,8 @@ bump patch file1.txt file2.json
 ```
 
 ## Usage in Go
+
+Documentation available at: [http://godoc.org/github.com/olivoil/bump](http://godoc.org/github.com/olivoil/bump)
 
 Example in a [gofer](https://github.com/chuckpreslar/gofer) task:
 
