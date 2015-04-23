@@ -14,7 +14,7 @@ func main() {
 	files := flag.Args()[1:]
 
 	for _, file := range files {
-		err := bump.File(file, command)
+		err := bump.File(command, file)
 		if err != nil {
 			log.Fatalf("Error updating %s file: %s", file, err.Error())
 		}
