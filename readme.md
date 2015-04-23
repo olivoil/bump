@@ -12,8 +12,9 @@ CLI      go get -u github.com/olivoil/bump/bump
 ## Usage from terminal
 
 ```
-# bump version in files
-bump patch file1.txt file2.json
+bump patch file.json
+bump minor file.txt
+bump major file.txt file.json
 ```
 
 ## Usage in Go
